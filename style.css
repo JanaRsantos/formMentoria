@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, header h1, legend, .fieldset-wrapper p, button {
+  font-family: 'Staatliches';
+}
+
+body {
+  background: #E5E5E5;
+  color: #535971;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+
+  color: #FFFFFF;
+  margin-top: 140px;
+}
+header p {
+  width: 417px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  margin-top: 18px;
+}
+
+form {
+  width: 750px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 58px;
+  min-height: 300px;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset legend {
+  font-size: 24px;
+  line-height: 34px; 
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+fieldset .legend {
+  margin-top: 32px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input-wrapper label {
+  font-family: 'Poppins';
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin: 16px 0 8px;
+  
+}
+
+.input-wrapper label span {
+  margin-left: 7px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #727076;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  height: 56px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 56px;
+  color: #535971;
+  
+}
+
+.fieldset-wrapper p {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 8px;
+}
+
+.col-3 > div:nth-child(1){
+  width: 100%;
+  margin-right: 30px;
+}
+
+#div-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+#div-name input {
+  width: 300px;
+}
+
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.col-3 .input-wrapper:nth-child(1) {
+  margin-right: 22px;
+}
+
+.col-3 .input-wrapper input {
+  width: 140px;
+}
+
+.col-3 .input-wrapper .dateIpt{
+  width: 300px;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 71px;
+  margin-bottom: 366px;
+}
+
+button {
+  height: 56px;
+  background: #FF5374;
+  border: none;
+  border-radius: 20px;
+  
+  font-size: 20px;
+  line-height: 26px;
+ 
+  color: #FFFFFF;
+}
+
+.form-button:hover {
+  background: rgb(232, 60, 95);
+}
